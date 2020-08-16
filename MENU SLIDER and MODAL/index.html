@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>My Landing Page</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="img/pexels-photo-194985.jpeg" alt="user" />
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <button id="toggle" class="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+        </button>
+
+        <h1>Toniraga's Landing Page</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, repellendus?</p>
+
+        <button class="cta-btn" id="open">Sign Up</button>
+    </header>
+
+    <div class="container">
+        <h2>What is this Landing Page About?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, mollitia quas sint quidem tempora dolore consequatur sequi incidunt, facere, aliquid id enim minus voluptates. Et veniam reprehenderit fuga velit quisquam?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem excepturi non impedit deleniti omnis illum, perspiciatis incidunt earum tempore provident?</p>
+
+
+        <h2>Know More!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate vitae quibusdam repellendus unde, sunt tempore ex voluptatibus, in praesentium magni iste cupiditate. Maxime animi ut voluptas adipisci aperiam delectus mollitia commodi debitis voluptatibus, maiores doloribus eligendi cupiditate dignissimos tempora?</p>
+
+        <h2>Benefits</h2>
+        <ul>
+            <li>Lifetime Access</li>
+            <li>30 Day Money Back</li>
+            <li>Tailored Customer Support</li>
+        </ul>
+
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dolorem facilis possimus ducimus cupiditate magni amet expedita aliquam! Quos neque velit quas a obcaecati esse est nostrum fuga doloribus laborum corrupti ad, repudiandae similique mollitia cum corporis consequuntur odit sunt?</p>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal-container" id="modal">
+        <div class="modal">
+            <button class="close-btn" id="close">
+                <i class="fa fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <h3>Sign Up</h3>
+            </div>
+            <div class="modal-content">
+                <p>Register with Us to Get Offers and More</p>
+                <div class="form modal-form">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter Name" class="form-input">
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter Email" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Enter Password" class="form-input">
+                    </div>
+                    <div>
+                        <label for="password2">Confirm Password</label>
+                        <input type="password" id="password2" placeholder="Enter Password" class="form-input">
+                    </div>
+                    <input type="submit" value="Submit" class="submit-btn">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
